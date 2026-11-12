@@ -74,7 +74,7 @@ h3 { font-size:var(--tamanho-h4); font-weight:700; }
 .logo-dot { color:var(--cor-cta); }
 
 .so-desktop { display:none; }
-@media (min-width:768px) { .logo { font-size:var(--tamanho-h4); } .so-desktop { display:inline; } }
+@media (min-width:768px) { .logo { font-size:var(--tamanho-h4); } .so-mobile { display:none; } .so-desktop { display:inline; } }
 
 /* 1. Hero */
 .hero-section { padding-top:var(--espaco-8); padding-bottom:60px; }
